@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      "solr-faceted-search-react",
+      "/media/israelterrill/0800FDEC00FDE11C/Users/IsraelTerrill/NodeStuff2"
+    ]
+  ],
+  "_from": "solr-faceted-search-react@latest",
+  "_id": "solr-faceted-search-react@0.11.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/solr-faceted-search-react",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/solr-faceted-search-react-0.11.0.tgz_1478170236375_0.4274900134187192"
+  },
+  "_npmUser": {
+    "email": "r.van.der.ark@gmail.com",
+    "name": "renevanderark"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "solr-faceted-search-react",
+    "raw": "solr-faceted-search-react",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/solr-faceted-search-react/-/solr-faceted-search-react-0.11.0.tgz",
+  "_shasum": "4188c4b67d400f7b307041138411be66df07eadf",
+  "_shrinkwrap": null,
+  "_spec": "solr-faceted-search-react",
+  "_where": "/media/israelterrill/0800FDEC00FDE11C/Users/IsraelTerrill/NodeStuff2",
+  "author": {
+    "email": "rene.van.der.ark@huygens.knaw.nl",
+    "name": "René van der Ark"
+  },
+  "bugs": {
+    "url": "https://github.com/HuygensING/solr-faceted-search-react/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "moment": "^2.16.0",
+    "react-datetime": "^2.6.2",
+    "xhr": "^2.2.0"
+  },
+  "description": "Solr faceted search client and react component pack",
+  "devDependencies": {
+    "@types/react": "^0.14.30",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "css-loader": "^0.23.1",
+    "derequire": "^2.0.3",
+    "envify": "^3.4.1",
+    "eslint": "^1.5.1",
+    "eslint-plugin-react": "^3.16.1",
+    "expect": "^1.14.0",
+    "file-loader": "^0.9.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.8.1",
+    "sinon": "^1.17.6",
+    "watchify": "^3.7.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "4188c4b67d400f7b307041138411be66df07eadf",
+    "tarball": "https://registry.npmjs.org/solr-faceted-search-react/-/solr-faceted-search-react-0.11.0.tgz"
+  },
+  "gitHead": "ff6f5cd18428a781196d6e808712fdc4f3bf4e4f",
+  "homepage": "https://github.com/HuygensING/solr-faceted-search-react#readme",
+  "license": "MIT",
+  "main": "build/index.js",
+  "maintainers": [
+    {
+      "email": "r.van.der.ark@gmail.com",
+      "name": "renevanderark"
+    }
+  ],
+  "name": "solr-faceted-search-react",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": ">= 0.14.7 < 16",
+    "react-dom": ">= 0.14.7 < 16"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuygensING/solr-faceted-search-react.git"
+  },
+  "scripts": {
+    "start": "scripts/watch.sh",
+    "test": "mocha --compilers js:babel-core/register --recursive test",
+    "test:watch": "nodemon -x \"mocha --compilers js:babel-core/register --recursive --watch test\" -w test -w build"
+  },
+  "typings": "src/index.d.ts",
+  "version": "0.11.0"
+}
